@@ -1,4 +1,4 @@
-; f/One32 32-bit DOS Extender
+; f/One32 32-bit DOS Extender (c) ACP 2014
 ; nmi.inc: handles NMI enabling & disabling operation from real mode
 
 NMI_DISABLE macro {
