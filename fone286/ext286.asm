@@ -3,6 +3,7 @@
 
 use16
 
+include 'dpmi286c.inc'
 
 init_extender:
 	push cs
@@ -13,7 +14,7 @@ init_extender:
 	jnc @f
 	pop bx
 	call ..critical_error
-error_msg    db 'f/One286 DOS Extender Runtime failed to run.',13,10,'$'
+.exterror_msg	 db 13,10, ' f/One286 DOS Extender Runtime failed to run.',13,10,'$'
 
 @@:
 	xor ax,ax
