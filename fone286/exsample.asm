@@ -3,6 +3,7 @@
 
 format mz
 entry cseg:start
+heap 0
 
 segment cseg use16
 
