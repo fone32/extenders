@@ -8,8 +8,8 @@ include 'dpmi286c.inc'
 init_extender:
 	push cs
 	pop ds
-	push cs
-	pop es
+	;push cs
+	;pop es
 	call _extender
 	jnc @f
 	pop bx
