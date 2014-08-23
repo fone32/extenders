@@ -20,9 +20,10 @@ f/One286 requires:
 Using f/One286
 ==============
 
-Simply include ‘ext286.asm’ at the begging of your code segment in your FASM application source. For reference take a look at exsample.asm example. 
+Simply include **‘ext286.asm’** at the begging of your code segment in your FASM application source. For reference take a look at **exsample.asm** example. 
 Your extended EXE file have to meet few requirements:
  * format MZ
  * use16 (for code segment, internally f/One286 uses use16 keyword as well)
  * heap 0  (if you forget to use it, DOS allocation for DPMI host private data will fail and extender won’t run) 
+ * include 'ext286.asm' after you code segment definition (e.g segment cseg use16)
 
