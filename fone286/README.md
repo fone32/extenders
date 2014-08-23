@@ -18,7 +18,7 @@ f/One286 requires:
  * XMS memory (in DosBOX set xms=true)
 
 Using f/One286
-=============+
+==============
 
 Simply include ‘ext286.asm’ at the begging of your code segment in your FASM application source. For reference take a look at exsample.asm example. 
 Your extended EXE file have to meet few requirements:
