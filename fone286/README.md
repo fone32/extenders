@@ -6,7 +6,7 @@ f/One286 is a 16-bit DPMI based DOS Extender for application developed using fla
 Why another extender?
 =====================
 
-Besides most famous ones like DOS16M, DOS4G, Phar Lap 386 and TNT, WDOSX, D3X, DOS32A, PMODE, Dos32Win – not to mention still supported and developed HX - there are endless number of DOS extenders available. Why write another one?
+Besides most famous ones like DOS16M, DOS4G, Phar Lap 386 and TNT, WDOSX, D3X, DOS32A, PMODE, DosWin32 – not to mention still supported and developed HX - there are endless number of DOS extenders available. Why write another one?
 f/One286 contrary to most mentioned above is 16 not 32 bit extender. Secondly it targets modern DOS emulation environments like DosBOX. Last but not least f/One286 has been developed as aid for writing 16 bit protected mode DOS programs using FASM. To make this task as easy as possible f/One286 has been developed entirely using FASM. As a advantage to using assembly language f/One286 is small and can be bided at source level with you FASM 16 bit protected mode DOS project.
 
 f/One286 requirements
